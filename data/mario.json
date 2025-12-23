@@ -1,0 +1,42 @@
+[
+  {
+    "game": "Super Mario",
+    "pack": "Mario",
+    "name": "Mario",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "Red cap with M, blue overalls, mustache",
+    "description": "Hero plumber who saves the Mushroom Kingdom",
+    "guessing_clues": "Nintendo plumber jumps on Goombas red hat M blue overalls mustache Princess Peach Bowser mushrooms pipes coins power-ups"
+  },
+  {
+    "game": "Super Mario",
+    "pack": "Mario",
+    "name": "Luigi",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Green cap with L, blue overalls, mustache",
+    "description": "Mario\u2019s brother who helps save friends",
+    "guessing_clues": "Tall brother green hat L timid brave Luigi's Mansion ghosts vacuum Poltergust helps Mario saves Peach"
+  },
+  {
+    "game": "Super Mario",
+    "pack": "Mario",
+    "name": "Princess Peach",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Pink dress, crown, blonde hair",
+    "description": "Kind princess often rescued from Bowser",
+    "guessing_clues": "Mushroom Kingdom princess pink gown crown blonde Mario rescues Bowser castle Toads sweet friendly royal"
+  },
+  {
+    "game": "Super Mario",
+    "pack": "Mario",
+    "name": "Bowser",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Large spiky turtle, horns, fiery breath",
+    "description": "Main villain who kidnaps Princess Peach",
+    "guessing_clues": "Koopa King villain spiky shell breathes fire kidnaps Peach boss battles castles lava minions Koopas"
+  }
+]

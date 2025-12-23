@@ -1,0 +1,42 @@
+[
+  {
+    "game": "Disney",
+    "pack": "Disney",
+    "name": "Mickey Mouse",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "Black mouse, round ears, red shorts, yellow shoes",
+    "description": "Cheerful mouse who leads friends on adventures",
+    "guessing_clues": "Iconic round ears wears red shorts yellow shoes friendly laughs whistles classic Disney mascot pals Minnie Donald Goofy adventures magic parks cartoons"
+  },
+  {
+    "game": "Disney",
+    "pack": "Disney",
+    "name": "Elsa",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Blonde hair, icy blue dress, snowflake theme",
+    "description": "Ice queen with magic powers and a kind heart",
+    "guessing_clues": "Frozen queen controls ice and snow wears blue gown sings Let It Go sister Anna castle Arendelle snowflakes winter magic"
+  },
+  {
+    "game": "Disney",
+    "pack": "Disney",
+    "name": "Maleficent",
+    "sex": "girl",
+    "character_type": "villain",
+    "appearance": "Dark robes, horned headpiece, green magic",
+    "description": "Powerful fairy villain who curses a princess",
+    "guessing_clues": "Sleeping Beauty villain horns black robe green flames curses princess Aurora raven staff dark magic dragon thorns"
+  },
+  {
+    "game": "Disney",
+    "pack": "Disney",
+    "name": "Stitch",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Small blue alien, big ears, sharp teeth",
+    "description": "Mischievous alien who learns about family",
+    "guessing_clues": "Lilo and Stitch blue alien experiment 626 chaos mischief big ears Hawaii ohana family learns love"
+  }
+]

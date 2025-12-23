@@ -1,0 +1,34 @@
+{
+  "project": "Sylvia GuessMe Static",
+  "role": "Engineer + UX designer",
+  "audience": "Kids age 9\u201310",
+  "tone": [
+    "fun",
+    "friendly",
+    "magical"
+  ],
+  "requirements": {
+    "features": [
+      "Guess bot",
+      "Multiple character packs (JSON)",
+      "Clue accumulation",
+      "Yes/No feedback loop",
+      "Win overlay with confetti and stars",
+      "Score tracking in localStorage",
+      "Sound toggle",
+      "Responsive centered layout",
+      "Pack-based theming colors"
+    ],
+    "tech": [
+      "HTML",
+      "CSS",
+      "Vanilla JavaScript",
+      "GitHub Pages"
+    ],
+    "constraints": [
+      "No server/backend",
+      "Do not remove functionality",
+      "Iterate additively"
+    ]
+  }
+}

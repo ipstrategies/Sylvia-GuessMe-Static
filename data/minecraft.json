@@ -1,0 +1,42 @@
+[
+  {
+    "game": "Minecraft",
+    "pack": "Minecraft",
+    "name": "Alex",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Orange hair, green eyes, green shirt, brown pants",
+    "description": "Smart adventurer who builds, explores, and survives",
+    "guessing_clues": "Uses sword pickaxe and bow explores caves forests villages builds shelters survives monsters crafts tools farms food adventures across blocky worlds"
+  },
+  {
+    "game": "Minecraft",
+    "pack": "Minecraft",
+    "name": "Steve",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "Brown hair, blue shirt, purple pants",
+    "description": "Brave builder who mines, crafts, and explores",
+    "guessing_clues": "Classic player character mines blocks builds houses fights zombies skeletons creepers crafts armor explores overworld nether end survives nights torches farms caves oceans villages"
+  },
+  {
+    "game": "Minecraft (Myth/Legend)",
+    "pack": "Minecraft",
+    "name": "Herobrine",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Steve-like, white glowing eyes, blue shirt",
+    "description": "Mysterious figure said to haunt Minecraft worlds",
+    "guessing_clues": "Legend with glowing white eyes appears suddenly creates tunnels watches players silently disappears spooky myths rumors unexplained signs haunted worlds forests mines nights shadows"
+  },
+  {
+    "game": "Minecraft (Myth/Legend)",
+    "pack": "Minecraft",
+    "name": "Entity 303",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Black outfit, red eyes, corrupted look",
+    "description": "Dangerous hacker myth who destroys Minecraft worlds",
+    "guessing_clues": "Dark creepypasta villain said to hack games destroy worlds corrupt files wear black skin red eyes chaos glitches errors commands myths stories servers legends fear"
+  }
+]

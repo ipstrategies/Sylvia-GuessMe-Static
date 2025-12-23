@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sylvia GuessMe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./app.css" />
+</head>
+<body class="pack-minecraft">
+  <div class="shell">
+    <header class="header">
+      <div class="badge">GuessMe</div>
+
+      <div class="pack-selector" aria-label="Character pack selector">
+        <span id="packLabel">Current Pack: Minecraft</span>
+        <div class="pack-buttons">
+          <button type="button" data-pack="Minecraft" class="active">🟩 Minecraft</button>
+          <button type="button" data-pack="Disney">🔵 Disney</button>
+          <button type="button" data-pack="Mario">🔴 Mario</button>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="avatar" aria-label="Sylvia bot">👱‍♀️</div>
+        <div class="heroText">
+          <h1>Sylvia GuessMe</h1>
+          <p class="sub">Type clues — I’ll guess the character!</p>
+          <div class="bubble-wrap">
+            <div class="bubble" id="botBubble">Give me a clue!</div>
+            <div class="typing hidden" id="typingRow" aria-hidden="true">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="card">
+        <div class="panel">
+          <div class="row">
+            <input id="clueInput" placeholder="Type a clue…" autocomplete="off" />
+            <button id="btnGuess" class="primary">Guess</button>
+          </div>
+          <div class="message" id="message"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panels">
+            <div class="panel">
+              <h3>Clues</h3>
+              <ul id="clueList" class="list"></ul>
+            </div>
+
+            <div class="panel guessbox">
+              <h3>My Guess</h3>
+              <div class="guessName" id="guessName">—</div>
+              <div class="guessMeta" id="guessMeta"></div>
+              <div class="guessCount" id="guessCount">Guesses: 0</div>
+
+              <div class="feedback hidden" id="feedbackRow">
+                <span>Was I correct?</span>
+                <button id="btnYes" class="primary">Yes</button>
+                <button id="btnNo" class="secondary">No</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="scorebar">
+            <div class="pill"><span class="k">Won</span> <span class="v" id="scoreWon">0</span></div>
+            <div class="pill"><span class="k">Played</span> <span class="v" id="scorePlayed">0</span></div>
+            <div class="pill"><span class="k">Best</span> <span class="v" id="scoreBest">—</span></div>
+
+            <label class="toggle" title="Turn sounds on or off">
+              <input type="checkbox" id="soundToggle" checked />
+              Sounds
+            </label>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="buttons">
+            <button id="btnPlayAgain" class="secondary">Play Again</button>
+            <button id="btnNewRound" class="secondary">New Round</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <small>Made for Sylvia’s first build demo 💙</small>
+    </footer>
+  </div>
+
+  <div id="winOverlay" class="overlay hidden" role="dialog" aria-modal="true" aria-label="You win">
+    <div class="overlayCard">
+      <div class="starRow" id="starRow">⭐ ⭐ ⭐</div>
+      <h2 class="winTitle">You did it!</h2>
+      <p class="winText" id="winText">Sylvia guessed it!</p>
+      <div class="overlayButtons">
+        <button id="btnOverlayPlayAgain" class="primary big">Play Again</button>
+        <button id="btnOverlayClose" class="secondary big" type="button">Close</button>
+      </div>
+      <div class="tiny">Tip: Try harder clues to trick Sylvia 😄</div>
+    </div>
+  </div>
+
+  <canvas id="confetti" class="confetti"></canvas>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
