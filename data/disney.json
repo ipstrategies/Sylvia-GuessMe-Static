@@ -1,42 +1,794 @@
 [
   {
-    "game": "Disney",
-    "pack": "Disney",
-    "name": "Mickey Mouse",
-    "sex": "boy",
+    "name": "Minnie Mouse",
+    "sex": "girl",
     "character_type": "main",
-    "appearance": "Black mouse, round ears, red shorts, yellow shoes",
-    "description": "Cheerful mouse who leads friends on adventures",
-    "guessing_clues": "Iconic round ears wears red shorts yellow shoes friendly laughs whistles classic Disney mascot pals Minnie Donald Goofy adventures magic parks cartoons"
+    "appearance": "Mouse with bow, dress, big round ears",
+    "description": "Sweet stylish mouse friend",
+    "guessing_clues": "Wears a bow and dress, big mouse ears, best friends with Mickey, kind and cheerful, loves fashion, often seen smiling, classic Disney character, helps friends in adventures."
   },
   {
-    "game": "Disney",
-    "pack": "Disney",
+    "name": "Donald Duck",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "White duck, sailor shirt, sailor hat",
+    "description": "Funny duck with a temper",
+    "guessing_clues": "White duck wearing sailor outfit, talks with a quacky voice, gets angry easily, best friends with Mickey and Goofy, often unlucky but brave, loves adventures and jokes."
+  },
+  {
+    "name": "Daisy Duck",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "White duck, bow, cute outfit, long eyelashes",
+    "description": "Confident stylish duck",
+    "guessing_clues": "White duck with a bow, fashionable and confident, often with Donald, has long eyelashes, enjoys fun and friends, classic Disney character, can be sassy but caring."
+  },
+  {
+    "name": "Goofy",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Tall dog, green hat, vest, big shoes",
+    "description": "Silly loyal friend",
+    "guessing_clues": "Tall clumsy friend, wears green hat, laughs a lot, friendly and kind, sometimes trips and falls, best buddies with Mickey and Donald, always tries to help."
+  },
+  {
+    "name": "Pluto",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Yellow dog with green collar",
+    "description": "Playful loyal dog",
+    "guessing_clues": "Yellow dog with a collar, doesn’t talk, loves playing and chasing, loyal pet of Mickey, wags tail a lot, barks to communicate, adorable and energetic."
+  },
+
+  {
     "name": "Elsa",
     "sex": "girl",
     "character_type": "main",
-    "appearance": "Blonde hair, icy blue dress, snowflake theme",
-    "description": "Ice queen with magic powers and a kind heart",
-    "guessing_clues": "Frozen queen controls ice and snow wears blue gown sings Let It Go sister Anna castle Arendelle snowflakes winter magic"
+    "appearance": "Blonde braid, blue dress, ice magic glow",
+    "description": "Ice queen with powers",
+    "guessing_clues": "Has ice powers, makes snow and castles, blonde hair, wears blue dress, sings about letting go, queen of Arendelle, protects her sister, loves winter and magic."
   },
   {
-    "game": "Disney",
-    "pack": "Disney",
+    "name": "Anna",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Auburn hair, colorful dress, warm smile",
+    "description": "Brave sister who loves family",
+    "guessing_clues": "Brave princess, auburn hair, loves her sister Elsa, goes on a snowy journey, friendly and silly, falls and gets up again, loves chocolate, helps save her kingdom."
+  },
+  {
+    "name": "Olaf",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Snowman with carrot nose, stick arms",
+    "description": "Funny snowman who loves summer",
+    "guessing_clues": "Talking snowman, carrot nose, loves warm hugs, dreams of summer, funny jokes, made from magic, friendly and sweet, helps Elsa and Anna on adventures."
+  },
+  {
+    "name": "Kristoff",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Blond hair, winter clothes, boots",
+    "description": "Strong ice harvester friend",
+    "guessing_clues": "Wears winter clothes, works with ice, best friend is a reindeer, kind and tough, travels in snow, helps Anna, sings with trolls, loves adventure and family."
+  },
+  {
+    "name": "Sven",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Reindeer with antlers, friendly face",
+    "description": "Loyal reindeer companion",
+    "guessing_clues": "Reindeer with antlers, best friend of Kristoff, loves carrots, makes funny sounds, helps pull sled, brave in snow, loyal and gentle, part of Frozen adventures."
+  },
+  {
+    "name": "Hans",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Prince outfit, neat hair, charming smile",
+    "description": "Prince who tricks everyone",
+    "guessing_clues": "Looks kind at first, prince from another kingdom, pretends to help Anna, secretly selfish, causes trouble in Arendelle, tries to take the throne, villain in Frozen."
+  },
+  {
+    "name": "Marshmallow",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Giant snow monster, spiky snow body",
+    "description": "Big snowy guard for Elsa",
+    "guessing_clues": "Huge snow monster, guards Elsa’s ice castle, looks scary but protects, made of snow and ice, strong and tall, roars loudly, later becomes friendlier."
+  },
+  {
+    "name": "Oaken",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Big smile, warm clothes, shopkeeper",
+    "description": "Cheerful shop owner",
+    "guessing_clues": "Runs a shop in the snow, friendly and silly, offers warm clothes, loves sauna jokes, speaks with funny voice, appears briefly but memorable in Frozen."
+  },
+
+  {
+    "name": "Snow White",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Black hair, red bow, yellow skirt, blue top",
+    "description": "Kind princess who loves animals",
+    "guessing_clues": "Princess with red bow, friends with forest animals, sings happily, runs away to a cottage, meets seven dwarfs, eats a poisoned apple, classic fairy tale story."
+  },
+  {
+    "name": "Doc",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Dwarf with glasses, leader look",
+    "description": "Leader dwarf with glasses",
+    "guessing_clues": "One of seven dwarfs, wears glasses, acts like the leader, kind and helpful, lives in a cottage, works in a mine, takes care of Snow White."
+  },
+  {
+    "name": "Grumpy",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Dwarf with frown, grumpy face",
+    "description": "Grumpy but caring dwarf",
+    "guessing_clues": "One of seven dwarfs, frowns a lot, complains often, secretly has a soft heart, helps protect Snow White, works in the mine, classic character."
+  },
+  {
+    "name": "Happy",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Smiling dwarf, cheerful face",
+    "description": "Always smiling dwarf",
+    "guessing_clues": "One of seven dwarfs, always cheerful, smiles and laughs, friendly to Snow White, lives in a cottage, works in a mine, loves fun and singing."
+  },
+  {
+    "name": "Sleepy",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Dwarf with droopy eyes, yawning",
+    "description": "Tired sleepy dwarf",
+    "guessing_clues": "One of seven dwarfs, always yawning, looks tired, can fall asleep anytime, lives in the cottage, works in the mine, helps Snow White and friends."
+  },
+  {
+    "name": "Bashful",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Shy dwarf, blushy face",
+    "description": "Shy blushing dwarf",
+    "guessing_clues": "One of seven dwarfs, gets embarrassed easily, blushes and hides, kind and gentle, lives in a cottage, works in a mine, helps Snow White."
+  },
+  {
+    "name": "Sneezy",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Dwarf with sneezy face, handkerchief",
+    "description": "Dwarf who sneezes a lot",
+    "guessing_clues": "One of seven dwarfs, sneezes loudly, allergies cause big sneezes, funny moments, lives in a cottage, works in the mine, helps Snow White."
+  },
+  {
+    "name": "Dopey",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Silly dwarf, big ears, joyful grin",
+    "description": "Silly lovable dwarf",
+    "guessing_clues": "One of seven dwarfs, doesn’t talk, very silly and sweet, big ears, playful and funny, lives in a cottage, works in mine, loves Snow White."
+  },
+  {
+    "name": "Evil Queen",
+    "sex": "girl",
+    "character_type": "villain",
+    "appearance": "Dark robe, crown, stern face",
+    "description": "Jealous queen villain",
+    "guessing_clues": "Wears a crown, jealous of Snow White, asks a magic mirror, wants to be fairest, uses poison, scary villain, turns mean and plots in secret."
+  },
+  {
+    "name": "Old Hag",
+    "sex": "girl",
+    "character_type": "villain",
+    "appearance": "Old witch disguise, hood, wrinkled face",
+    "description": "Witch disguise with poisoned apple",
+    "guessing_clues": "Old witch disguise, gives a poisoned apple, tricks Snow White, scary and sneaky, appears as an old lady, part of the Evil Queen’s plan."
+  },
+
+  {
+    "name": "Lilo",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Hawaiian girl, long dark hair, casual dress",
+    "description": "Kind girl who loves family",
+    "guessing_clues": "Lives in Hawaii, loves Elvis music, dances and takes photos, wants a best friend, says ohana means family, adopts Stitch, brave and caring."
+  },
+  {
+    "name": "Stitch",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "Small blue alien, big ears, sharp teeth",
+    "description": "Mischievous alien becomes family",
+    "guessing_clues": "Blue alien with big ears, causes chaos at first, very strong, learns kindness, becomes Lilo’s friend, loves family, says ohana, funny troublemaker hero."
+  },
+  {
+    "name": "Nani",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Older sister, long dark hair, casual clothes",
+    "description": "Big sister who takes care",
+    "guessing_clues": "Lilo’s older sister, works hard, tries to keep family together, protective and loving, lives in Hawaii, worries about bills and school, learns to accept Stitch."
+  },
+  {
+    "name": "Jumba",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Large alien scientist, round body, lab look",
+    "description": "Scientist who made Stitch",
+    "guessing_clues": "Alien scientist, created Stitch in a lab, speaks funny, chases Stitch at first, later helps the family, smart and quirky, part of the space story."
+  },
+  {
+    "name": "Pleakley",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Tall thin alien, one eye, disguise outfits",
+    "description": "Funny nervous alien helper",
+    "guessing_clues": "One-eyed alien, nervous and silly, wears human disguises, works with Jumba, tries to catch Stitch, later helps Lilo’s family, very funny and dramatic."
+  },
+
+  {
+    "name": "Woody",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "Cowboy doll, hat, sheriff badge, plaid shirt",
+    "description": "Loyal cowboy leader toy",
+    "guessing_clues": "Cowboy toy with hat, leads the toys, loyal to his kid, says there’s a snake in my boot, jealous sometimes, protects friends, brave and caring in Toy Story."
+  },
+  {
+    "name": "Buzz Lightyear",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "Space ranger suit, purple and green, helmet",
+    "description": "Brave space ranger toy",
+    "guessing_clues": "Space ranger toy, says to infinity and beyond, wears helmet, thinks he’s real at first, fights evil Zurg, flies with wings, becomes Woody’s best friend."
+  },
+  {
+    "name": "Jessie",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Cowgirl doll, red hat, red braids, western outfit",
+    "description": "Energetic cowgirl toy",
+    "guessing_clues": "Cowgirl toy with red hat, lots of energy, yells yeehaw, part of Woody’s roundup, loves adventure, brave and friendly, sometimes scared of being left behind."
+  },
+  {
+    "name": "Mr. Potato Head",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Potato toy with removable face parts",
+    "description": "Funny sarcastic toy",
+    "guessing_clues": "Potato toy, face parts pop off, wears a hat, makes jokes, can change eyes and mouth, grumpy but loyal, part of Toy Story team, often hilarious."
+  },
+  {
+    "name": "Mrs. Potato Head",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Potato toy with hat, purse, earrings",
+    "description": "Kind caring potato toy",
+    "guessing_clues": "Potato toy with purse, caring and helpful, loves Mr. Potato Head, gives advice, part of toy group, funny and sweet, helps during rescues."
+  },
+  {
+    "name": "Rex",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Green dinosaur toy, big head, tiny arms",
+    "description": "Nervous friendly dinosaur",
+    "guessing_clues": "Green dinosaur toy, tiny arms, worries a lot, friendly and sweet, plays video games, tries to be scary but isn’t, loyal to friends in Toy Story."
+  },
+  {
+    "name": "Hamm",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Pink piggy bank toy",
+    "description": "Smart funny piggy bank",
+    "guessing_clues": "Piggy bank toy, pink, clever and sarcastic, gives ideas, jokes with friends, part of Toy Story toys, brave when needed, likes money jokes."
+  },
+  {
+    "name": "Slinky Dog",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Dog toy with spring body",
+    "description": "Loyal stretchy dog toy",
+    "guessing_clues": "Dog toy with a spring body, stretches far, loyal to Woody, friendly and calm, helps in rescues, can reach long distances, classic Toy Story friend."
+  },
+  {
+    "name": "Bo Peep",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Shepherdess doll, staff, pastel outfit",
+    "description": "Confident shepherdess toy",
+    "guessing_clues": "Shepherdess toy, carries a staff, confident and smart, kind to Woody, later becomes adventurous leader, helps friends, calm and brave in Toy Story."
+  },
+  {
+    "name": "Forky",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Spork craft toy with googly eyes",
+    "description": "Silly new toy confused",
+    "guessing_clues": "Made from a spork, googly eyes, thinks he’s trash, very funny, learns to be a toy, goes on adventures, worries a lot, becomes part of Toy Story friends."
+  },
+
+  {
+    "name": "Belle",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Brown hair, yellow ball gown, book lover",
+    "description": "Brave reader who loves kindness",
+    "guessing_clues": "Loves books, wears a yellow dress, kind and smart, lives in a village, meets a Beast in a castle, breaks a curse with love, brave and caring."
+  },
+  {
+    "name": "Beast",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "Large beast-like prince, horns, royal clothes",
+    "description": "Cursed prince learns kindness",
+    "guessing_clues": "Looks like a beast, lives in a castle, under a curse, learns to be kind, becomes a prince, cares for Belle, has magical servants, changes because of love."
+  },
+  {
+    "name": "Lumiere",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Candleholder with flames, smiling face",
+    "description": "Friendly candle helper",
+    "guessing_clues": "Living candle, speaks with accent, loves music, helps Belle, lives in enchanted castle, bright flames on top, cheerful and welcoming, sings and dances."
+  },
+  {
+    "name": "Cogsworth",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Clock with face, serious eyebrows",
+    "description": "Strict clock helper",
+    "guessing_clues": "Living clock, very strict, worries about rules, lives in enchanted castle, helps Beast and Belle, often argues with Lumiere, loyal and responsible."
+  },
+  {
+    "name": "Mrs. Potts",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Teapot with kind face",
+    "description": "Sweet teapot caretaker",
+    "guessing_clues": "Living teapot, kind motherly helper, sings a famous song, cares for Chip, lives in enchanted castle, helps Belle feel welcome, warm and gentle."
+  },
+  {
+    "name": "Gaston",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Muscular hunter, red shirt, confident grin",
+    "description": "Proud villain hunter",
+    "guessing_clues": "Very strong and proud, wants to marry Belle, big hunter, loves attention, causes trouble in village, fights the Beast, villain with loud personality."
+  },
+
+  {
+    "name": "Ariel",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Red hair, mermaid tail, seashell top",
+    "description": "Curious mermaid who loves adventure",
+    "guessing_clues": "Mermaid princess, red hair, lives under the sea, collects human things, wants to walk on land, sings about her world, meets Prince Eric, brave and curious."
+  },
+  {
+    "name": "Prince Eric",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Prince sailor clothes, dark hair",
+    "description": "Prince Ariel loves",
+    "guessing_clues": "Prince on the ocean, sails a ship, kind and brave, rescued by Ariel, fights sea danger, loves adventure, helps defeat Ursula, becomes Ariel’s true love."
+  },
+  {
+    "name": "Sebastian",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Red crab, small, expressive eyes",
+    "description": "Crab friend who warns Ariel",
+    "guessing_clues": "Red crab, musical helper, tries to protect Ariel, sings songs, works for King Triton, worried about trouble, funny and loyal, loves rules."
+  },
+  {
+    "name": "Flounder",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Yellow and blue fish, friendly face",
+    "description": "Ariel’s best fish friend",
+    "guessing_clues": "Small fish friend, yellow and blue, swims with Ariel, scared sometimes but loyal, helps explore shipwrecks, kind and supportive, underwater adventure buddy."
+  },
+  {
+    "name": "Ursula",
+    "sex": "girl",
+    "character_type": "villain",
+    "appearance": "Sea witch, purple skin, octopus tentacles",
+    "description": "Sea witch villain",
+    "guessing_clues": "Sea witch with tentacles, makes magic deals, steals Ariel’s voice, tricky and mean, lives in dark ocean cave, powerful villain, wants the trident and control."
+  },
+
+  {
+    "name": "Merida",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Curly red hair, green dress, bow and arrows",
+    "description": "Brave archer princess",
+    "guessing_clues": "Princess with curly red hair, shoots arrows, loves freedom, rides a horse, lives in Scotland, argues with her mother, tries to change fate, brave and stubborn."
+  },
+  {
+    "name": "Queen Elinor",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Queen dress, calm face, royal crown",
+    "description": "Merida’s wise mother",
+    "guessing_clues": "Queen and mother, teaches manners and duty, strong and wise, tries to guide Merida, later turns into a bear, learns to understand her daughter."
+  },
+  {
+    "name": "King Fergus",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Big king, red beard, crown, friendly smile",
+    "description": "Merida’s loud funny dad",
+    "guessing_clues": "Big king, loves stories, laughs loudly, supports Merida, brave warrior, missing a leg, family leader, enjoys feasts and fun, from the movie Brave."
+  },
+  {
+    "name": "Mor'du",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Huge scary bear, dark fur, angry eyes",
+    "description": "Dangerous bear villain",
+    "guessing_clues": "Giant scary bear, roars and attacks, cursed and angry, chases Merida, powerful villain in the forest, part of Scottish legend, dangerous and unstoppable."
+  },
+
+  {
+    "name": "Jasmine",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Black hair, teal outfit, jeweled headband",
+    "description": "Princess who wants freedom",
+    "guessing_clues": "Princess in a palace, wears teal outfit, wants to explore outside, has a pet tiger, meets Aladdin, smart and brave, stands up to Jafar."
+  },
+  {
+    "name": "Aladdin",
+    "sex": "boy",
+    "character_type": "main",
+    "appearance": "Street clothes, vest, fez sometimes",
+    "description": "Kind hero who finds a lamp",
+    "guessing_clues": "Street-smart hero, finds a magic lamp, becomes a prince for Jasmine, rides a flying carpet, has a monkey friend, fights Jafar, adventurous and kind."
+  },
+  {
+    "name": "Genie",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Blue magical genie, big smile",
+    "description": "Funny genie grants wishes",
+    "guessing_clues": "Blue genie from a lamp, very funny, grants three wishes, makes crazy magic, friends with Aladdin, loves jokes, wants to be free, big personality and smiles."
+  },
+  {
+    "name": "Abu",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Small brown monkey with vest",
+    "description": "Mischievous monkey friend",
+    "guessing_clues": "Small monkey, steals sometimes, loyal to Aladdin, wears a tiny vest, loves shiny treasures, helps in adventures, brave and clever, funny sidekick."
+  },
+  {
+    "name": "Jafar",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Tall sorcerer, dark robe, staff",
+    "description": "Evil sorcerer villain",
+    "guessing_clues": "Tall villain in dark robes, uses magic staff, wants the lamp, tries to rule the kingdom, sneaky and powerful, has a parrot, fights Aladdin and Jasmine."
+  },
+
+  {
+    "name": "Tiana",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Green gown, dark hair, kind smile",
+    "description": "Hardworking princess with big dreams",
+    "guessing_clues": "Princess who works hard, wants her own restaurant, lives in New Orleans, turns into a frog, kind and determined, loves cooking, meets Prince Naveen."
+  },
+  {
+    "name": "Prince Naveen",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Prince outfit, charming grin",
+    "description": "Prince who becomes a frog",
+    "guessing_clues": "Prince turned into a frog, funny and charming, learns responsibility, goes on swamp adventure, becomes a better person, helps Tiana, loves music and fun."
+  },
+  {
+    "name": "Louis",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Alligator, big teeth, friendly eyes",
+    "description": "Alligator who loves jazz",
+    "guessing_clues": "Friendly alligator, loves jazz music, plays trumpet, big and silly, helps Tiana and Naveen, lives in the swamp, wants to join a band."
+  },
+  {
+    "name": "Ray",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Firefly glowing light, tiny body",
+    "description": "Sweet firefly friend",
+    "guessing_clues": "Small glowing firefly, talks funny, romantic and sweet, helps friends in the swamp, loves the stars, brave and loyal, guides the frogs on their journey."
+  },
+  {
+    "name": "Dr. Facilier",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Tall shadow man, purple suit, top hat",
+    "description": "Shadow magic villain",
+    "guessing_clues": "Villain with shadow magic, wears purple suit and hat, makes creepy deals, uses voodoo-style tricks, wants power and money, scary friends from the shadows."
+  },
+
+  {
+    "name": "Moana",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Polynesian girl, island outfit, long dark hair",
+    "description": "Brave ocean voyager heroine",
+    "guessing_clues": "Lives on an island, chosen by the ocean, sails a canoe, seeks a magic heart, brave and curious, helps her people, meets Maui, loves adventure and family."
+  },
+  {
+    "name": "Maui",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Big tattooed demigod, hook weapon",
+    "description": "Funny demigod helper",
+    "guessing_clues": "Big strong demigod, covered in tattoos, carries a magic hook, turns into animals, sings and jokes, helps Moana, learns teamwork, proud but kind."
+  },
+  {
+    "name": "Heihei",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Silly chicken, colorful feathers, wide eyes",
+    "description": "Silly chicken sidekick",
+    "guessing_clues": "Funny chicken, not very smart, ends up on a boat, causes silly moments, friend of Moana, makes weird noises, helps by accident, always surprised."
+  },
+  {
+    "name": "Gramma Tala",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Elder woman, warm smile, island clothing",
+    "description": "Wise grandmother guide",
+    "guessing_clues": "Moana’s grandmother, wise and loving, encourages adventure, tells stories, dances happily, supports Moana’s journey, kind and funny, important family guide."
+  },
+  {
+    "name": "Te Ka",
+    "sex": "girl",
+    "character_type": "villain",
+    "appearance": "Lava monster, fiery body, glowing eyes",
+    "description": "Scary lava monster",
+    "guessing_clues": "Huge lava monster, made of fire and rock, blocks Moana’s path, angry and powerful, fights with flames, part of a lost heart story, dangerous and loud."
+  },
+
+  {
+    "name": "Mulan",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Black hair, armor or dress, determined look",
+    "description": "Brave warrior who saves China",
+    "guessing_clues": "Disguises as a soldier, trains with an army, very brave, fights to protect family, smart and strong, has a dragon friend, saves the emperor and China."
+  },
+  {
+    "name": "Mushu",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Small red dragon, funny expressions",
+    "description": "Funny dragon helper",
+    "guessing_clues": "Tiny red dragon, talks fast, makes jokes, helps Mulan, wants to be a guardian, sometimes messes up, loyal friend, tries to give confidence and courage."
+  },
+  {
+    "name": "Li Shang",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Captain armor, black hair, serious face",
+    "description": "Army captain ally",
+    "guessing_clues": "Army captain, trains soldiers, serious and brave, leads troops, respects Mulan, fights invaders, strong leader, learns to trust and teamwork."
+  },
+  {
+    "name": "Shan Yu",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Tall warrior villain, dark clothes, sharp eyes",
+    "description": "Fearsome invader villain",
+    "guessing_clues": "Scary invader leader, very strong, attacks villages, fights Mulan and soldiers, cold and cruel, dangerous villain in the mountains, wants to take over China."
+  },
+
+  {
+    "name": "Aurora",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Blonde hair, pink dress, crown",
+    "description": "Princess who sleeps under a curse",
+    "guessing_clues": "Princess with blonde hair, sings in the forest, gets cursed to sleep, called Sleeping Beauty, lives with three fairies, meets Prince Phillip, wakes with true love’s kiss."
+  },
+  {
+    "name": "Prince Phillip",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Prince armor, sword and shield",
+    "description": "Prince who fights the dragon",
+    "guessing_clues": "Brave prince, fights a dragon, carries sword and shield, saves Aurora, battles Maleficent, rides a horse, heroic and kind, classic fairy tale rescuer."
+  },
+  {
     "name": "Maleficent",
     "sex": "girl",
     "character_type": "villain",
-    "appearance": "Dark robes, horned headpiece, green magic",
-    "description": "Powerful fairy villain who curses a princess",
-    "guessing_clues": "Sleeping Beauty villain horns black robe green flames curses princess Aurora raven staff dark magic dragon thorns"
+    "appearance": "Black robe, horns, green magic glow",
+    "description": "Powerful fairy villain",
+    "guessing_clues": "Villain with horns, uses green magic, curses Aurora, turns into a dragon, very powerful and scary, wears dark robes, angry and dramatic, classic Disney villain."
   },
   {
-    "game": "Disney",
-    "pack": "Disney",
-    "name": "Stitch",
+    "name": "Flora",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Fairy in red dress, wand",
+    "description": "Fairy helper for Aurora",
+    "guessing_clues": "One of three fairies, uses magic wand, helps raise Aurora, kind and protective, argues about dress colors, fights Maleficent’s curse with teamwork."
+  },
+  {
+    "name": "Fauna",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Fairy in green dress, wand",
+    "description": "Gentle fairy helper",
+    "guessing_clues": "One of three fairies, gentle and sweet, loves animals, helps Aurora grow up, uses a wand, protects the princess, part of Sleeping Beauty story."
+  },
+  {
+    "name": "Merryweather",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Fairy in blue dress, wand",
+    "description": "Sassy fairy helper",
+    "guessing_clues": "One of three fairies, sassy and bold, loves the color blue, uses magic wand, helps fight Maleficent, protects Aurora, strong personality and funny moments."
+  },
+
+  {
+    "name": "Cinderella",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Blonde hair, blue gown, glass slippers",
+    "description": "Kind princess with glass slippers",
+    "guessing_clues": "Princess with glass slipper, wears a blue dress, has a fairy godmother, goes to a ball, rides a pumpkin carriage, loses a slipper at midnight, kind and hopeful."
+  },
+  {
+    "name": "Fairy Godmother",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Old fairy, wand, kind smile",
+    "description": "Magic helper who grants wishes",
+    "guessing_clues": "Kind magical fairy, waves a wand, turns pumpkins into carriages, helps Cinderella go to the ball, says bibbidi bobbidi boo, caring and gentle helper."
+  },
+  {
+    "name": "Prince Charming",
     "sex": "boy",
     "character_type": "side",
-    "appearance": "Small blue alien, big ears, sharp teeth",
-    "description": "Mischievous alien who learns about family",
-    "guessing_clues": "Lilo and Stitch blue alien experiment 626 chaos mischief big ears Hawaii ohana family learns love"
+    "appearance": "Prince outfit, royal look",
+    "description": "Prince who searches for Cinderella",
+    "guessing_clues": "Prince at the royal ball, falls in love, searches kingdom with a glass slipper, kind and polite, wants to find the girl, classic fairy tale prince."
+  },
+  {
+    "name": "Gus",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Chubby mouse, small clothes",
+    "description": "Helpful mouse friend",
+    "guessing_clues": "Small mouse friend, helps Cinderella, brave and funny, sneaks around the house, avoids the cat, works with other mice, kind helper in Cinderella story."
+  },
+  {
+    "name": "Jaq",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Small mouse, quick and clever look",
+    "description": "Clever mouse helper",
+    "guessing_clues": "Mouse friend who helps Cinderella, clever and quick, makes plans, avoids the cat, works with Gus, sneaks keys and items, loyal helper in the house."
+  },
+  {
+    "name": "Lady Tremaine",
+    "sex": "girl",
+    "character_type": "villain",
+    "appearance": "Strict stepmother, fancy dress, cold stare",
+    "description": "Cruel stepmother villain",
+    "guessing_clues": "Strict stepmother, treats Cinderella badly, cold and mean, bossy voice, keeps Cinderella working, has two daughters, tries to stop the slipper fitting, villain in Cinderella."
+  },
+
+  {
+    "name": "Pocahontas",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Long black hair, tan dress, necklace",
+    "description": "Brave heroine who loves nature",
+    "guessing_clues": "Loves nature and rivers, adventurous and brave, long black hair, meets John Smith, tries to bring peace, talks about colors of the wind, kind and strong."
+  },
+  {
+    "name": "John Smith",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Explorer clothes, blond hair, strong build",
+    "description": "Explorer who befriends Pocahontas",
+    "guessing_clues": "Explorer from across the ocean, meets Pocahontas, learns respect, wants peace, brave and curious, tries to stop fighting, important character in Pocahontas story."
+  },
+  {
+    "name": "Meeko",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Raccoon, striped tail, playful eyes",
+    "description": "Playful raccoon friend",
+    "guessing_clues": "Cute raccoon friend, loves snacks, playful and funny, helps Pocahontas, steals food, uses paws to grab things, animal sidekick in the forest."
+  },
+  {
+    "name": "Flit",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Tiny hummingbird, bright feathers",
+    "description": "Tiny bird companion",
+    "guessing_clues": "Small hummingbird friend, flies fast, protects Pocahontas, sometimes jealous, zips around flowers, brave for a tiny bird, animal sidekick in the story."
+  },
+  {
+    "name": "Governor Ratcliffe",
+    "sex": "boy",
+    "character_type": "villain",
+    "appearance": "Fancy purple coat, tall hat, greedy grin",
+    "description": "Greedy leader villain",
+    "guessing_clues": "Wears fancy clothes, greedy for gold, leads settlers, causes conflict, bossy and selfish, tries to blame others, villain in Pocahontas story."
+  },
+
+  {
+    "name": "Raya",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Warrior outfit, hat, sword, determined eyes",
+    "description": "Warrior heroine seeking peace",
+    "guessing_clues": "Warrior girl, carries a sword, wears a hat, travels to find Sisu, tries to unite lands, brave and smart, fights dark monsters, learns trust and teamwork."
+  },
+  {
+    "name": "Sisu",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Blue dragon, fluffy mane, friendly smile",
+    "description": "Funny magical dragon",
+    "guessing_clues": "Blue dragon, magical and kind, makes jokes, helps Raya, believes in trust, swims and flies, uses water magic, friendly helper in Raya story."
+  },
+  {
+    "name": "Namaari",
+    "sex": "girl",
+    "character_type": "villain",
+    "appearance": "Warrior outfit, sharp eyes, confident stance",
+    "description": "Rival warrior who causes conflict",
+    "guessing_clues": "Raya’s rival, skilled fighter, makes mistakes, starts trouble between lands, serious and proud, later tries to help, complicated character with strong attitude."
+  },
+  {
+    "name": "Tuk Tuk",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Round armadillo-like pet, rolls into a ball",
+    "description": "Cute rolling animal friend",
+    "guessing_clues": "Cute animal friend, rolls like a ball, helps Raya travel fast, loyal and brave, makes funny sounds, protects her, adorable companion in Raya story."
+  },
+
+  {
+    "name": "Mirabel",
+    "sex": "girl",
+    "character_type": "main",
+    "appearance": "Curly hair, glasses, colorful dress",
+    "description": "Girl who saves her family",
+    "guessing_clues": "Wears glasses, lives in a magic family house, doesn’t get a gift, still brave and helpful, sings and talks fast, tries to save the miracle, loves family."
+  },
+  {
+    "name": "Luisa",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Strong girl, muscular build, simple outfit",
+    "description": "Super strong sister",
+    "guessing_clues": "Very strong sister, can lift heavy things, helps everyone, feels pressure to be perfect, sings about strength, kind and protective, part of the Encanto family."
+  },
+  {
+    "name": "Isabela",
+    "sex": "girl",
+    "character_type": "side",
+    "appearance": "Long hair, pretty dress, flower magic",
+    "description": "Sister who grows flowers",
+    "guessing_clues": "Looks perfect, makes flowers grow, wears pretty clothes, expected to be perfect, learns to be herself, sings and changes, sister in the Encanto family."
+  },
+  {
+    "name": "Bruno",
+    "sex": "boy",
+    "character_type": "side",
+    "appearance": "Messy hair, green poncho, nervous look",
+    "description": "Uncle who sees the future",
+    "guessing_clues": "Mysterious uncle, sees the future, people worry about his visions, hides away, loves rats, family talks about him a lot, helps Mirabel at the end."
   }
 ]
